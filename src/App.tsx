@@ -28,7 +28,7 @@ function App() {
     <>
       <Navbar fluid={true} rounded={true}>
         <Navbar.Brand href="https://yankun.org/packages-upgrade-helper">
-          <img src="/logo.png" className="mr-3 h-6 sm:h-9" alt="Logo" />
+          <img src={`${import.meta.env.BASE_URL}logo.png`} className="mr-3 h-6 sm:h-9" alt="Logo" />
           <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
             Packages Upgrade Helper
           </span>
