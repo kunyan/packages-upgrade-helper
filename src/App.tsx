@@ -72,8 +72,8 @@ function App() {
       <Footer container={true}>
         <div className="mx-auto">
           <Footer.Copyright
-            href="https://yankun.org/packages-upgrade-helper"
-            by=" Kun Yan"
+            href="https://kunyan.github.io/packages-upgrade-helper"
+            by="Kun Yan"
             year={new Date().getFullYear()}
           />
         </div>
